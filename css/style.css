@@ -39,7 +39,8 @@ video#bgvid {
     font-size: 75px; }
   .name h3 {
     font-family: edmondthin;
-    color: white; }
+    color: white;
+    letter-spacing: 5px; }
   .name a {
     color: white;
     text-decoration: none; }

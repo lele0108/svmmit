@@ -1,0 +1,75 @@
+@font-face {
+  font-family: edmond;
+  src: url("../fonts/edmond.otf"); }
+@font-face {
+  font-family: edmondthin;
+  src: url("../fonts/edmondthin.otf"); }
+video#bgvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; }
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.name {
+  margin-top: 10%; }
+  .name h1 {
+    font-family: edmond;
+    color: white;
+    font-size: 75px; }
+  .name h3 {
+    font-family: edmondthin;
+    color: white; }
+
+.quote {
+  margin-top: 200px; }
+  .quote p {
+    font-family: 'Vollkorn', serif;
+    color: white;
+    font-size: 20px; }
+
+.fancy {
+  line-height: 0.5;
+  text-align: center; }
+
+.fancy span {
+  display: inline-block;
+  position: relative; }
+
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 130px; }
+
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px; }
+
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px; }

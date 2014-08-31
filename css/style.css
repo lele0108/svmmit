@@ -40,6 +40,11 @@ video#bgvid {
   .name h3 {
     font-family: edmondthin;
     color: white; }
+  .name a {
+    color: white;
+    text-decoration: none; }
+    .name a:hover {
+      opacity: 0.7; }
 
 .quote {
   margin-top: 200px; }

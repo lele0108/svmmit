@@ -38,6 +38,13 @@ video#bgvid {
 		font-family:edmondthin;
 		color:white;
 	}
+	a {
+		color:white;
+		text-decoration:none;
+		&:hover {
+			opacity:0.7;
+		}
+	}
 }
 
 .quote {

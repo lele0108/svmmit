@@ -38,15 +38,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -74,25 +65,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/vlcsnap-2014-08-31-15h53m59s235.png": {
-		"fileType": 32768,
+	"\/img\/snapshot.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 570480,
-		"inputAbbreviatedPath": "\/img\/vlcsnap-2014-08-31-15h53m59s235.png",
-		"outputAbbreviatedPath": "\/img\/vlcsnap-2014-08-31-15h53m59s235.png",
+		"initialSize": 34894,
+		"inputAbbreviatedPath": "\/img\/snapshot.jpg",
+		"outputAbbreviatedPath": "\/img\/snapshot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/js\/bootstrap.js": {
 		"fileType": 64,

@@ -15,6 +15,7 @@
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		width: 100%;
   	}
   	.name {
   		h1 {
@@ -31,7 +32,13 @@
   	}
 }
 @media (min-width: 767px) {
-
+	body {
+  		background: url('../img/mobile.png') no-repeat center center fixed;
+  		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+  	}
 }
 
 video#bgvid {

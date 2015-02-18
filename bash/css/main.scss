@@ -1,0 +1,138 @@
+h1, h2, h3, h4, h5, p, a, li, ul {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	background-color:white;
+	color:black;
+	li {
+		display:inline;
+		color:#27ae60;
+		margin-left:40px;
+		font-weight:600;
+		font-size:14px;
+		&:hover {
+			opacity:0.7;
+		}
+	}
+	ul {
+		text-align:right;
+		padding-top:8px;
+	}
+	a {
+		text-decoration:none;
+	}
+}
+
+.name {
+	padding: 40px 0px 20px 0px;
+	color:white;
+	h1 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size:30px;
+		font-weight:600;
+	}
+	button {
+		background-color: transparent;
+		color:#27ae60;
+		border: 1px solid #27ae60;
+		padding: 10px 25px 10px 25px;
+		border-radius: 5px;
+		&:hover {
+			background-color:#27ae60;
+			color:white;
+		}
+	}
+}
+
+.tagline {
+	margin-top:25px;
+	h1 {
+		color:#2c3e50;
+		font-weight:300;
+		font-size:45px;
+	}
+	h3 {
+		color:#2c3e50;
+		font-size:20px;
+		font-weight:300;
+		line-height:30px;
+	}
+	.form {
+		padding: 10px;
+		font-size:16px;
+		border-radius:5px;
+		border: 1px solid #bdc3c7;
+		width:300px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.go {
+		font-size:16px;
+		padding: 10px 30px 10px 30px;
+		background-color:#2ecc71;
+		color:white;
+		border-radius:5px;
+		border: 1px solid #2ecc71;
+		&:hover {
+			opacity:0.7;
+		}
+	}
+}
+
+.feature {
+	padding:50px 0px 50px 0px;
+	.text {
+		margin-top:125px;
+		h1 {
+			font-weight:300;
+			font-size:30px;
+			color:#2c3e50;
+		}
+		p {
+			font-size:17px;
+			color:#34495e;
+		}
+	}
+}
+
+.download {
+	h1 {
+		font-weight:300;
+		font-size:30px;
+		color:#2c3e50;
+	}
+
+	.form {
+		padding: 10px;
+		font-size:16px;
+		border-radius:5px;
+		border: 1px solid #bdc3c7;
+		width:350px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.go {
+		font-size:16px;
+		padding: 10px 30px 10px 30px;
+		background-color:#2ecc71;
+		color:white;
+		border-radius:5px;
+		border: 1px solid #2ecc71;
+		&:hover {
+			opacity:0.7;
+		}
+	}
+	padding: 50px 0px 100px 0px;
+}
+
+.footer {
+	padding: 20px 0px 10px 0px;
+	color:#95a5a6;
+	a {
+		text-decoration:none;
+		color:#27ae60;
+		&:hover {
+			opacity:0.7;
+		}
+	}
+}

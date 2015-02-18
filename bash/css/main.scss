@@ -125,6 +125,31 @@ h1, h2, h3, h4, h5, p, a, li, ul {
 	padding: 50px 0px 100px 0px;
 }
 
+.legal {
+	padding:10px 0px 20px 0px;
+	h1 {
+		margin-top:30px;
+		font-size:22px;
+		font-weight:300;
+	}
+	h3 {
+		font-size:14px;
+		margin-top:40px;
+		font-weight:600;
+		color:#27ae60;
+	}
+	a {
+		text-decoration:none;
+		&:hover {
+			opacith:0.7;
+		}
+	}
+}
+
+.policy {
+	margin-bottom:50px;
+}
+
 .footer {
 	padding: 20px 0px 10px 0px;
 	color:#95a5a6;
